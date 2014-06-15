@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   has_many :characters
   has_one  :guild
+  has_one  :status
 
   def self.create_with_omniauth(auth)
     create! do |user|

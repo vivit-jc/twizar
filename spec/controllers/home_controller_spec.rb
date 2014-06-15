@@ -41,6 +41,13 @@ RSpec.describe HomeController do
       expect(assigns(:dungeons_disabled).size).to be(2)
     end
 
+    it "ダンジョン攻略中なら道中画面にリダイレクト" do
+      @user.status.dungeon = 1
+      @user.status.floor = 1
+      get :index
+      expect(response).to redirect_to(action: :dungeon)
+    end
+
   end
 
 end

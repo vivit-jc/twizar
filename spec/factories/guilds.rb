@@ -2,6 +2,6 @@
 
 FactoryGirl.define do
   factory :guild do
-    fame 1
+    fame 10
   end
 end

@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 20140615162527) do
   end
 
   create_table "statuses", force: true do |t|
-    t.integer  "player_id"
+    t.integer  "user_id"
     t.integer  "dungeon"
     t.integer  "floor"
     t.datetime "created_at"
