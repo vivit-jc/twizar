@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  job: 1
+  physical: 1
+  mental: 1
+  sensuous: 1
+  social: 1
+
+two:
+  name: MyString
+  job: 1
+  physical: 1
+  mental: 1
+  sensuous: 1
+  social: 1

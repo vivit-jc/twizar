@@ -1,0 +1,41 @@
+- :job_j: 剣士
+  :physical: 4
+  :mental:   1
+  :sensuous: 1
+  :social:   1
+
+- :job_j: 魔法使い
+  :physical: 1
+  :mental:   4
+  :sensuous: 1
+  :social:   1
+
+- :job_j: 僧侶
+  :physical: 1
+  :mental:   3
+  :sensuous: 1
+  :social:   2
+
+- :job_j: 盗賊
+  :physical: 1
+  :mental:   1
+  :sensuous: 3
+  :social:   2
+
+- :job_j: 商人
+  :physical: 1
+  :mental:   1
+  :sensuous: 1
+  :social:   4
+
+- :job_j: 魔法剣士
+  :physical: 2
+  :mental:   2
+  :sensuous: 2
+  :social:   1
+
+- :job_j: 射手
+  :physical: 2
+  :mental:   1
+  :sensuous: 3
+  :social:   1

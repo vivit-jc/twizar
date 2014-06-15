@@ -1,0 +1,42 @@
+<%= flash[:notice] %>
+<%= flash[:alert] %>
+<br>
+<%= link_to "テスト", home_tweet_path %><br>
+<%= form_tag "home/add_member" do %>
+<%= text_field_tag :account %>
+<%= submit_tag "取得" %>
+<% end %>
+
+<br>
+<br>
+<% @members.each do |m| %>
+<div style="float:left;">
+<table>
+<tr>
+<td>
+<%= image_tag "https://syamn.cat/api/twicon/name/"+m.name %></td>
+<td>
+<%= m.name %><br>
+</td>
+</tr>
+<tr>
+<td>職業</td>
+<td><%= m.job_j %></td>
+</tr><tr>
+<td>HP</td>
+<td><%= m.hp %>/<%= m.maxhp %></td>
+</tr><tr>
+<td>Exp.</td>
+<td><%= m.exp %></td>
+<% [[:physical,"肉体"],[:mental,"精神"],[:sensuous,"感覚"],[:social,"社会"]].each do |st| %>
+</tr><tr>
+<td><%= st[1] %></td>
+<td><%= m[st[0]] %></td>
+<td><%= link_to "+1(exp -#{m.req(st[0])})", home_add_status_path(st: st[0], name: m.name) %></td>
+<% end %>
+</tr>
+</table>
+</div>
+<% end %>
+<div style="clear:both;">
+</div>

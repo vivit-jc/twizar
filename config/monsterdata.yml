@@ -1,0 +1,27 @@
+- !ruby/object:Monster
+  :name: 巨大イモムシ
+  :symbol: :worm
+  :hp: 20
+  :att: 10
+  :skill:
+
+  - !ruby/object:Monster
+  :name: 急降下タカ
+  :symbol: :hawk
+  :hp: 20
+  :att: 10
+  :skill:
+
+  - !ruby/object:Monster
+  :name: 忍び寄るネズミ
+  :symbol: :rat
+  :hp: 20
+  :att: 10
+  :skill:
+
+- !ruby/object:Monster
+  :name: 岩石イノシシ
+  :symbol: :boar
+  :hp: 20
+  :att: 10
+  :skill:

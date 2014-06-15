@@ -1,0 +1,50 @@
+- !ruby/object:Dungeon
+  :name: 深き霧の森
+  :monsters:
+    - 
+      - :worm
+      - :worm
+      - :rat
+      - :rat
+    - 
+      - :worm
+      - :worm
+      - :worm
+      - :rat
+      - :rat
+      - :hawk
+    - 
+      - :rat
+      - :rat
+      - :hawk
+      - :hawk
+      - :boar
+
+- !ruby/object:Dungeon
+  :name: イムラヤ山道
+  :monsters:
+    - 
+      - :warm
+      - :warm
+      - :rat
+      - :rat
+    - 
+      - :warm
+      - :warm
+      - :warm
+      - :rat
+      - :rat
+      - :hawk
+    - 
+      - :rat
+      - :rat
+      - :hawk
+      - :hawk
+      - :boar
+
+- !ruby/object:Dungeon
+  :name: サファイア海蝕洞
+  :monsters:
+    - 7
+    - 8
+    - 9
